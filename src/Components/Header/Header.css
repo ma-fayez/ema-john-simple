@@ -1,0 +1,29 @@
+.Header img{
+    height: 80px;
+}
+.Header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+.Header nav{
+    background-color: black;
+    font-size: 22px;
+    line-height: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: grey;
+}
+@media screen and (max-width: 728px){
+    .Header nav{
+        font-size: 18px;
+    }
+}

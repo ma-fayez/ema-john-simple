@@ -10,7 +10,7 @@ const Cart = (props) => {
     let total = 0;
     for(let i = 0; i< cart.length; i++){
         const product = cart[i];
-        total = total + product.price;
+        total = total + product.price * product.quantity;
     }
     let shipping = 0;
     if(total>50){
@@ -42,7 +42,10 @@ const Cart = (props) => {
             <h4>Estamated Tax : <span className="values">${tax}</span> </h4>
             <h3>Order Total : <span className="values"> ${grandTotal}</span> </h3>
             <h3>BD Amount : <span className="values"> {bdAmount}Tk</span> </h3>
-            <button className="review-btn"><FontAwesomeIcon icon={faShoppingBag}/>  Review Your Order</button>
+            {
+                //Review Button called from shop.js
+                props.children
+            }
         </div>
     );
 };

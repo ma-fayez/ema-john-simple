@@ -1,0 +1,14 @@
+.error{
+    margin-top: 10%;
+}
+.sub-error{
+    text-align: center;
+    padding: 20px;
+}
+.sub-error h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.sub-error h2{
+    font-size: 100px;
+}

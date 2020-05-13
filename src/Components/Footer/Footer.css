@@ -1,8 +1,8 @@
 .footer{
-display: inline-block;  
 width: 100%; 
 text-align: center;
-
+position: relative;
+display: inline-block;
 }
 .copy{
     background-color: black;

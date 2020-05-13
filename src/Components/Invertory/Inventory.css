@@ -1,0 +1,9 @@
+.inventory{
+    margin-top: 10%;
+}
+.sub-inventory{
+    text-align: center;
+    padding: 40px;
+    height: 360px;
+    background-color: lightsalmon;
+}

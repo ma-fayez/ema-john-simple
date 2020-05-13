@@ -1,7 +1,6 @@
 
 .shop-container{
     width: 100%;
-    
 }
 .product-container{
     margin-left: 9%;
@@ -29,8 +28,7 @@
     .cart-container{
         width: 36%;
         padding-top: 20%;
-
-
+        margin-top: 10%;
     }
 
 
